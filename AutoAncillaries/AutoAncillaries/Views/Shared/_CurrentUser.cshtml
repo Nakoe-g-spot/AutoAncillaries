@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNetCore.Identity
+    <!-- Current user (right part of the website) -->
+    <ul class="navbar-nav align-items-center  ml-auto ml-md-0 ">
+        <li class="nav-item dropdown">
+            <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="media align-items-center">
+                    <span class="avatar avatar-sm rounded-circle">
+                        <img alt="User image" src="@Url.Content("~/wwwroot/img/brand/user.png")">
+                    </span>
+                    <div class="media-body  ml-2  d-none d-lg-block">
+                        <span class="mb-0 text-sm  font-weight-bold">
+                            <span>User name</span>
+                        </span>
+                    </div>
+                </div>
+            </a>
+            <partial name="Topnav/_Dropdown" />
+        </li>
+    </ul>

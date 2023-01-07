@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+    <!-- Topnav -->
+    <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                @Html.Partial("_Search")
+
+                @Html.Partial("_Link")
+
+                @Html.Partial("_CurrentUser")
+            </div>
+        </div>
+    </nav>
